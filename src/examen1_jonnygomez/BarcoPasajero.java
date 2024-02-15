@@ -19,7 +19,7 @@ public final class BarcoPasajero extends Barco {
         this.precioBoleto = precioBoleto;
         this.contadorPasajeros = 0;
     }
-
+    
     @Override
     public void agregarElemento() {
         if (contadorPasajeros < pasajeros.length) {

@@ -27,14 +27,14 @@ public class Muelle {
             }
         }
     }
-
-    public void agregarElemento(String nombre) {
+    public void agregarElemento(String nombre){
         Barco barco = buscarBarco(nombre);
-        if (barco != null) {
+        if(barco != null){
             barco.agregarElemento();
         }
     }
-
+          
+    
     public double vaciarBarco(String nombre) {
         Barco barco = buscarBarco(nombre);
         if (barco != null) {
